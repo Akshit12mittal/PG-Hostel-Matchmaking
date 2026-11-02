@@ -122,18 +122,3 @@ npm run start
 ```
 
 ---
-
-## ☁️ Vercel Deployment
-
-RoomSync is optimized for zero-configuration deployment on **Vercel**:
-1. Push this code to GitHub:
-   ```bash
-   git init
-   git add .
-   git commit -m "feat: complete RoomSync academic prototype"
-   git remote add origin <your-repo-url>
-   git push -u origin main
-   ```
-2. Log into [Vercel](https://vercel.com) and import the repository.
-3. Keep default settings (`Framework: Next.js`, `Build Command: next build`).
-4. Click **Deploy**. Your prototype will be live with a public HTTPS URL.
